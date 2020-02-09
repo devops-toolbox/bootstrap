@@ -8,10 +8,10 @@ bootstrap: install python
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.bootstrap](https://galaxy.ansible.com/devops-toolbox.bootstrap)
+[https://galaxy.ansible.com/devopstoolbox.bootstrap](https://galaxy.ansible.com/devopstoolbox.bootstrap)
 
 ```bash
-ansible-galaxy install devops-toolbox.bootstrap
+ansible-galaxy install devopstoolbox.bootstrap
 ```
 
 Requirements
@@ -41,7 +41,7 @@ Example Playbook
   tasks:
     - name: bootstrap is configured
       import_role:
-        name: devops-toolbox.bootstrap
+        name: devopstoolbox.bootstrap
       tags: bootstrap
 ```
 
@@ -53,4 +53,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
